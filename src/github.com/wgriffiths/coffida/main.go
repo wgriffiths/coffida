@@ -15,10 +15,10 @@ import (
 
 type Product struct {
 	ID          string
-	Title       string  `json:"status"`
-	Description string  `json:"description"`
-	Price       float32 `json:"price"`
-	Active      bool    `json:"active"`
+	Title       string  
+	Description string  
+	Price       int32
+	Active      bool
 }
 
 // GetID to satisfy jsonapi.MarshalIdentifier interface
